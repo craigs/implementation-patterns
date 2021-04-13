@@ -10,6 +10,10 @@ module.exports = {
     '~components': '<rootDir>/src/components/index',
   },
   rootDir: '.',
-  testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
+  testPathIgnorePatterns: [
+    '<rootDir>/.fttemplates/',
+    '<rootDir>/.next/',
+    '<rootDir>/node_modules/',
+  ],
   transform: {'^.+\\.tsx?$': 'babel-jest'},
 }
