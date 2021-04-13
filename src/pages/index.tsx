@@ -9,7 +9,24 @@ const Home: NextPage = () => (
     </Head>
 
     <Layout>
-      <Heading>Implementation patterns</Heading>
+      <div>
+        <Heading>Implementation patterns</Heading>
+
+        <p>
+          This project is associated with the article{' '}
+          <a href="https://craigs.io/articles/implementation-patterns-nextjs-react-typescript">
+            Implementation patterns
+          </a>{' '}
+          originally published on <a href="https://craigs.io">craigs.io</a>.
+        </p>
+
+        <p>
+          You can view this site at{' '}
+          <a href="https://implementation-patterns.vercel.app/">
+            implementation-patterns.vercel.app
+          </a>
+        </p>
+      </div>
     </Layout>
   </>
 )
