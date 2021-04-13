@@ -1,7 +1,9 @@
-import Styles from './index.module.scss'
+import { FC } from "react";
 
-export const Heading = ({children}) => (
+import Styles from "./index.module.scss";
+
+export const Heading: FC = ({ children }) => (
   <h1 className={Styles.heading} data-testid="heading">
     {children}
   </h1>
-)
+);

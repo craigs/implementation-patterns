@@ -1,7 +1,8 @@
+import {NextPage} from 'next'
 import Head from 'next/head'
 import {Heading, Layout} from '~components'
 
-const Home = () => (
+const Home: NextPage = () => (
   <>
     <Head>
       <title>Implementation patterns</title>
